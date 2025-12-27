@@ -1,0 +1,186 @@
+{
+  "articles": [
+    {
+      "id": "a1",
+      "title": "Introduction to the Solar System",
+      "excerpt": "Overview of planets, their characteristics, and the structure of our cosmic neighborhood.",
+      "thumbnail": "./assets/articles/solarsystem.jpg",
+      "reading_time": "3 min",
+      "category": "Solar System",
+      "content": "The Solar System is a vast and dynamic family of celestial objects bound together by the Sun’s gravity. At the center lies our star—the Sun—which contains almost all the mass in the system. Surrounding it are eight planets, dozens of moons, dwarf planets, and millions of small icy and rocky bodies. The inner planets are rocky, while the outer giants are composed of gas and ice. Beyond Neptune lies the Kuiper Belt and the far Oort Cloud. Understanding the Solar System reveals how planets formed and what conditions support life."
+    },
+    {
+      "id": "a2",
+      "title": "How Telescopes See the Universe",
+      "excerpt": "A deep look into optical, radio, infrared, and space telescopes.",
+      "thumbnail": "./assets/articles/telescope.jpg",
+      "reading_time": "3 min",
+      "category": "Tech",
+      "content": "Telescopes collect light—visible or invisible—and magnify the universe. Optical telescopes use mirrors or lenses to observe planets and nearby galaxies. Radio telescopes detect enormous cosmic structures by capturing low-frequency waves emitted from gas clouds, pulsars, and black holes. Infrared telescopes look through interstellar dust to reveal star-forming regions. Space telescopes like Hubble and James Webb avoid atmospheric distortion, capturing light billions of years old. Together, these instruments allow us to study everything from the birth of stars to the beginning of the cosmos."
+    },
+    {
+      "id": "a3",
+      "title": "The Dark Matter Mystery",
+      "excerpt": "Exploring the invisible material shaping the cosmos.",
+      "thumbnail": "./assets/articles/darkmatter.jpg",
+      "reading_time": "4 min",
+      "category": "Cosmology",
+      "content": "Dark matter makes up most of the universe’s mass, yet it is invisible. It neither emits nor absorbs light, making it detectable only through gravitational effects. Galaxies rotate too fast to remain intact without dark matter providing extra mass. Gravitational lensing also exposes large invisible structures. Several particles—like WIMPs and axions—are candidates, but none have been detected directly. Dark matter could be composed of exotic particles or even primordial black holes. Solving this mystery may change our understanding of physics and the universe’s evolution."
+    },
+    {
+      "id": "a4",
+      "title": "Stars That Die Twice",
+      "excerpt": "The strange world of ‘zombie stars’ that explode more than once.",
+      "thumbnail": "./assets/articles/zombiestar.jpg",
+      "reading_time": "3 min",
+      "category": "Stars",
+      "content": "Some massive stars do not explode just once—but multiple times. These rare phenomena, known as pulsational pair-instability supernovae, occur when intense radiation destabilizes the star and causes partial explosions. The star ejects enormous layers of gas but survives, later exploding again. Shockwaves collide, producing extreme brightness. These events challenge our understanding of stellar life cycles and reveal how the heaviest elements, including gold and uranium, are formed."
+    },
+    {
+      "id": "a5",
+      "title": "Rogue Planets: Worlds Without a Sun",
+      "excerpt": "Planets drifting alone in the cold darkness of space.",
+      "thumbnail": "./assets/articles/rogueplanet.jpg",
+      "reading_time": "4 min",
+      "category": "Planets",
+      "content": "Rogue planets float freely through the galaxy with no parent star. They may have been ejected by violent gravitational interactions or formed independently. Some rogue planets could have thick atmospheres that trap internal heat, allowing liquid oceans beneath their surface—even without sunlight. Astronomers believe there may be more rogue planets than stars. These dark, solitary worlds are nearly invisible and are detected through gravitational microlensing as they momentarily bend the light of distant stars."
+    },
+
+    {
+      "id": "a6",
+      "title": "Time Dilation: How Space Changes Time",
+      "excerpt": "Why astronauts age slower and relativity changes the flow of time.",
+      "thumbnail": "./assets/articles/timedilation.jpg",
+      "reading_time": "3 min",
+      "category": "Physics",
+      "content": "Einstein’s relativity shows that time is flexible, not fixed. Stronger gravity slows down time, while high speeds also affect its flow. Astronauts on the International Space Station age slightly slower than people on Earth due to their speed. Near a black hole, time could slow so dramatically that minutes on the outside might be years elsewhere. GPS satellites constantly adjust for time dilation to remain accurate. These effects show that time and space are interconnected aspects of spacetime."
+    },
+    {
+      "id": "a7",
+      "title": "The Sound of Space",
+      "excerpt": "How black holes, nebulae, and gas clouds create cosmic sound waves.",
+      "thumbnail": "./assets/articles/space-sound.jpg",
+      "reading_time": "3 min",
+      "category": "Space Science",
+      "content": "Space appears silent, but sound exists wherever gas or plasma can vibrate. NASA has recorded eerie low-frequency waves from black holes, galaxy clusters, and solar winds. The Perseus black hole produces pressure waves at frequencies far below human hearing—but when scaled up, they sound like a deep cosmic roar. Nebulae create gentle hums and oscillations as charged particles move through magnetic fields. These sounds reveal hidden information about energy, structure, and cosmic dynamics."
+    },
+    {
+      "id": "a8",
+      "title": "The Cosmic Web",
+      "excerpt": "The massive universe-spanning structure connecting galaxies.",
+      "thumbnail": "./assets/articles/cosmicweb.jpg",
+      "reading_time": "4 min",
+      "category": "Cosmology",
+      "content": "Galaxies are not distributed randomly—they form a massive cosmic web. This structure consists of enormous filaments made of galaxies, gas, and dark matter, stretching across billions of light-years. At the intersections of these filaments lie galaxy clusters, while between them are immense empty voids. Computer simulations show that the cosmic web resembles the neural network of a brain. Understanding the web reveals how matter organizes itself on the largest scales and shows how dark matter sculpts the universe."
+    },
+    {
+      "id": "a9",
+      "title": "White Holes: The Opposite of Black Holes",
+      "excerpt": "A theoretical cosmic phenomenon that ejects—but never absorbs—matter.",
+      "thumbnail": "./assets/articles/whitehole.jpg",
+      "reading_time": "3 min",
+      "category": "Black Holes",
+      "content": "White holes are hypothetical objects predicted by relativity. They are the reverse of black holes: instead of pulling matter in, they violently eject it and cannot be entered from the outside. Some theories suggest that black holes could be connected to white holes through wormholes, creating shortcuts in spacetime. Others propose that the Big Bang itself may have been a white hole event. Although unobserved, white holes remain a fascinating window into the possibilities of extreme physics."
+    },
+    {
+      "id": "a10",
+      "title": "Quantum Tunneling in Stars",
+      "excerpt": "The quantum trick that allows stars to shine.",
+      "thumbnail": "./assets/articles/quantum-star.jpg",
+      "reading_time": "3 min",
+      "category": "Quantum Physics",
+      "content": "Inside stars like our Sun, temperatures are not technically high enough for hydrogen nuclei to overcome their natural repulsion and fuse. Quantum tunneling allows particles to pass through energy barriers they shouldn't cross, enabling fusion to occur. This phenomenon powers the Sun and every star in the universe. Without quantum tunneling, stars would never ignite, planets would not form, and life could not exist. It is one of the most essential quantum effects in nature."
+    },
+    {
+      "id": "a11",
+      "title": "The Great Attractor",
+      "excerpt": "The hidden gravitational anomaly pulling the Milky Way.",
+      "thumbnail": "./assets/articles/attractor.jpg",
+      "reading_time": "3 min",
+      "category": "Cosmology",
+      "content": "The Great Attractor is a mysterious region exerting gravitational pull on thousands of galaxies, including the Milky Way. It lies in the Zone of Avoidance—an area blocked by thick dust in the Milky Way—making direct observation difficult. Galaxies across millions of light-years are moving toward this hidden structure at immense speeds. Scientists believe it is part of a massive supercluster called Laniakea, but its exact nature remains unknown."
+    },
+    {
+      "id": "a12",
+      "title": "Multiverse Theories",
+      "excerpt": "Do other universes exist beyond our own?",
+      "thumbnail": "./assets/articles/multiverse.jpg",
+      "reading_time": "4 min",
+      "category": "Theoretical Physics",
+      "content": "Several theories propose that our universe may be one among many. Quantum mechanics suggests that every possible outcome of an event might branch into a new universe. Inflation theory predicts countless bubble universes, each with its own physical laws. Another idea proposes that black holes create new universes inside them. Although the multiverse remains unproven, it offers explanations for why our universe appears perfectly tuned for life."
+    },
+    {
+      "id": "a13",
+      "title": "Hypervelocity Stars",
+      "excerpt": "Stars moving faster than anything their size should.",
+      "thumbnail": "./assets/articles/hypervelocity.jpg",
+      "reading_time": "3 min",
+      "category": "Stars",
+      "content": "Hypervelocity stars travel at millions of kilometers per hour—fast enough to escape their galaxies. They are believed to be ejected by interactions with supermassive black holes. Some may have once been part of binary star systems where one star fell into a black hole while the other was slingshotted away. Studying hypervelocity stars helps scientists understand black hole dynamics and the structure of galactic centers."
+    },
+    {
+      "id": "a14",
+      "title": "The Boomerang Nebula: Coldest Known Place in the Universe",
+      "excerpt": "A natural refrigerator chilling matter below cosmic temperatures.",
+      "thumbnail": "./assets/articles/boomerang.jpg",
+      "reading_time": "3 min",
+      "category": "Nebulae",
+      "content": "The Boomerang Nebula is the coldest known place in the universe—colder than the cosmic microwave background. Its temperature drops to 1 Kelvin (-272°C), just above absolute zero. This extreme cold results from gas rapidly expanding outward from a dying star. As the gas expands, it cools dramatically, creating a vast cosmic freezer. The nebula's temperature and structure challenge our understanding of how dying stars shed mass."
+    },
+
+    {
+      "id": "a15",
+      "title": "Neutron Stars: The Densest Objects in Existence",
+      "excerpt": "A teaspoon of neutron star material weighs billions of tons.",
+      "thumbnail": "./assets/articles/neutronstar.jpg",
+      "reading_time": "3 min",
+      "category": "Stars",
+      "content": "Neutron stars are remnants of massive stars that exploded as supernovae. They cram more mass than our Sun into a sphere just 20 kilometers wide. A teaspoon of neutron star matter would weigh over a billion tons on Earth. These stars rotate extremely fast—some spin hundreds of times per second—and emit powerful beams of radiation called pulsars. Neutron stars push physics to its limits, revealing the strange behavior of matter under extreme pressure."
+    },
+    {
+      "id": "a16",
+      "title": "The Dark Energy Problem",
+      "excerpt": "The mysterious force accelerating the expansion of the universe.",
+      "thumbnail": "./assets/articles/darkenergy.jpg",
+      "reading_time": "4 min",
+      "category": "Cosmology",
+      "content": "Dark energy makes up nearly 70% of the universe and is responsible for its accelerating expansion. Unlike gravity, which pulls things together, dark energy pushes space itself apart. Scientists do not know what dark energy is—it may be a property of space, a new field, or a modification of gravity. Understanding dark energy is essential for predicting the ultimate fate of the universe."
+    },
+    {
+      "id": "a17",
+      "title": "Galactic Cannibalism",
+      "excerpt": "How galaxies consume each other in cosmic collisions.",
+      "thumbnail": "./assets/articles/galaxycollision.jpg",
+      "reading_time": "3 min",
+      "category": "Galaxies",
+      "content": "Galaxies often collide and merge in spectacular cosmic events. Larger galaxies devour smaller ones in a process called galactic cannibalism. The Milky Way itself has consumed dozens of dwarf galaxies and is currently absorbing the Sagittarius Dwarf Galaxy. In 4.5 billion years, it will collide with the Andromeda Galaxy. These mergers create new stars, reshape galactic structures, and form giant elliptical galaxies."
+    },
+    {
+      "id": "a18",
+      "title": "Black Hole Jets: The Universe’s Most Powerful Beams",
+      "excerpt": "Streams of matter fired at near-light speed across galaxies.",
+      "thumbnail": "./assets/articles/blackholejet.jpg",
+      "reading_time": "3 min",
+      "category": "Black Holes",
+      "content": "Some black holes produce jets—powerful streams of charged particles traveling at nearly the speed of light. These jets can extend for thousands of light-years and shape entire galaxies. They arise when magnetic fields near a spinning black hole twist and accelerate particles outward. Black hole jets are responsible for enormous radio lobes and can heat surrounding gas, regulating star formation."
+    },
+    {
+      "id": "a19",
+      "title": "Planet Nine: The Hunt for a Hidden World",
+      "excerpt": "Evidence suggests a massive planet may exist beyond Neptune.",
+      "thumbnail": "./assets/articles/planetnine.jpg",
+      "reading_time": "3 min",
+      "category": "Planets",
+      "content": "Astronomers have detected unusual orbits among distant Kuiper Belt objects, hinting at a large unseen planet—possibly 5 to 10 times Earth's mass. This hypothetical Planet Nine may orbit the Sun once every 10,000–20,000 years. If it exists, it would reshape our understanding of the Solar System’s formation. Researchers continue searching using powerful telescopes and sky surveys."
+    },
+    {
+      "id": "a20",
+      "title": "The Simulation Hypothesis",
+      "excerpt": "Are we living inside a cosmic simulation?",
+      "thumbnail": "./assets/articles/simulation.jpg",
+      "reading_time": "4 min",
+      "category": "Philosophy & Physics",
+      "content": "Some scientists and philosophers propose that our reality could be a sophisticated simulation created by an advanced civilization. The laws of physics appear finely tuned and mathematically elegant—traits similar to programmed systems. Quantum mechanics introduces randomness similar to pixelation. While unproven, the simulation hypothesis is taken seriously by physicists exploring the fundamental nature of reality."
+    }
+  ]
+}
