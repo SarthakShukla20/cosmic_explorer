@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <link rel="icon" href="data:,">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Cosmic Explorer</title>
+
+  <!-- Three.js CDN -->
+  <script src="https://unpkg.com/three@0.150.1/build/three.min.js"></script>
+
+  <link rel="stylesheet" href="style.css" />
+  <meta name="description" content="Cosmic Explorer - An Interactive Space Learning Platform">
+</head>
+<body>
+
+  <div id="stars"></div>
+
+  <header class="topbar">
+    <div class="logo">COSMIC <span>EXPLORER</span></div>
+
+    <nav class="nav">
+      <button data-show="home" class="nav-btn active">Home</button>
+      <button data-show="articles" class="nav-btn">Articles</button>
+      <button data-show="gallery" class="nav-btn">Gallery</button>
+      <button data-show="apod" class="nav-btn">NASA APOD</button>
+      <button data-show="events" class="nav-btn">Events</button>
+      <button data-show="quiz" class="nav-btn">Quiz</button>
+      <button data-show="explorer" class="nav-btn">3D Explorer</button>
+      <button data-show="asteroids" class="nav-btn">Asteroids</button>
+      <button data-show="iss" class="nav-btn">ISS Tracker</button>
+      <button data-show="spacex" class="nav-btn">SpaceX Launch</button>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- HOME -->
+    <section id="home" class="page visible">
+      <div class="floating-planet"></div>
+
+      <div class="hero">
+        <h1>Explore the Cosmos</h1>
+        <p>Interactive space learning — articles, real-time data, quizzes, and 3D simulations.</p>
+
+        <div class="cta-row">
+          <button id="start-quiz" class="btn glow">Start Quiz</button>
+
+          <!-- GALLERY BUTTON -->
+          <button class="btn glow nav-btn" data-show="gallery">See Gallery</button>
+        </div>
+      </div>
+
+      <div class="features">
+        <article class="card">
+          <h3>Real-time Data</h3>
+          <p>Fetch NASA Astronomy Picture of the Day and SpaceX launches.</p>
+        </article>
+
+        <article class="card">
+          <h3>3D Simulation</h3>
+          <p>Explore a 3D planet using Three.js (pure JS).</p>
+        </article>
+
+        <article class="card">
+          <h3>Interactive Quizzes</h3>
+          <p>Test your knowledge and track scores locally.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ARTICLES -->
+    <section id="articles" class="page">
+      <div class="panel">
+        <h2>Space Articles</h2>
+        <div id="article-list" class="list"></div>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section id="gallery" class="page">
+      <div class="panel">
+        <h2>Image Gallery</h2>
+        <div id="gallery-grid" class="grid"></div>
+      </div>
+    </section>
+
+    <!-- APOD -->
+    <section id="apod" class="page">
+      <div class="panel apod-panel">
+        <h2>NASA Astronomy Picture of the Day</h2>
+
+        <div id="apod-content" class="apod-content">
+          <img id="apod-img" src="./assets/placeholder.jpg" alt="APOD" />
+          <div class="apod-text">
+            <h3 id="apod-title">Loading...</h3>
+            <p id="apod-desc"></p>
+            <small id="apod-date"></small>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- EVENTS -->
+    <section id="events" class="page">
+      <div class="panel">
+        <h2>Space Events Calendar</h2>
+        <ul id="events-list" class="events-list"></ul>
+      </div>
+    </section>
+
+    <!-- QUIZ -->
+    <section id="quiz" class="page">
+      <div class="panel">
+        <h2>Space Quiz</h2>
+        <div id="quiz-area">
+          <div id="quiz-question"></div>
+          <div id="quiz-options"></div>
+
+          <div class="quiz-controls">
+            <button id="next-q" class="btn glow">Next</button>
+            <div id="quiz-score">Score: 0</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3D EXPLORER -->
+    <section id="explorer" class="page">
+      <div class="panel">
+        <h2>3D Planet Explorer</h2>
+        <div id="three-container"></div>
+        <p class="hint">Drag to rotate, scroll to zoom.</p>
+      </div>
+    </section>
+
+    <!-- ASTEROIDS -->
+    <section id="asteroids" class="page">
+      <div class="panel">
+        <h2>Near Earth Asteroids (NASA NeoWs)</h2>
+        <div id="asteroid-list" class="list"></div>
+      </div>
+    </section>
+
+    <!-- ISS TRACKER -->
+    <section id="iss" class="page">
+      <div class="panel">
+        <h2>Real-Time ISS Tracker</h2>
+        <div id="iss-data"></div>
+      </div>
+    </section>
+
+    <!-- SPACEX -->
+    <section id="spacex" class="page">
+      <div class="panel">
+        <h2>Next SpaceX Launch</h2>
+        <div id="spacex-launch"></div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    <div>Made by Sarthak Shukla • B.Tech Mini Project</div>
+    <div class="small">An Interactive space learning Platform</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

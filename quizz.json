@@ -1,0 +1,107 @@
+{
+  "questions": [
+    {
+      "q": "Which planet is known as the Red Planet?",
+      "options": ["Venus", "Mars", "Jupiter", "Mercury"],
+      "answer": "Mars"
+    },
+    {
+      "q": "What does NASA's APOD stand for?",
+      "options": ["Astronomy Picture of the Day", "Astrophysics Picture of the Day", "Astronaut Photo Day", "Astronomy Photo Database"],
+      "answer": "Astronomy Picture of the Day"
+    },
+    {
+      "q": "Which object is a dwarf planet?",
+      "options": ["Earth", "Pluto", "Saturn", "Neptune"],
+      "answer": "Pluto"
+    },
+
+    {
+      "q": "Which galaxy contains our Solar System?",
+      "options": ["Andromeda Galaxy", "Milky Way Galaxy", "Whirlpool Galaxy", "Sombrero Galaxy"],
+      "answer": "Milky Way Galaxy"
+    },
+    {
+      "q": "What is the name of the star at the center of our Solar System?",
+      "options": ["Sirius", "Vega", "The Sun", "Proxima Centauri"],
+      "answer": "The Sun"
+    },
+
+    {
+      "q": "Which planet has the most moons?",
+      "options": ["Mars", "Jupiter", "Earth", "Neptune"],
+      "answer": "Jupiter"
+    },
+    {
+      "q": "What is the closest galaxy to the Milky Way?",
+      "options": ["Whirlpool Galaxy", "Andromeda Galaxy", "Sombrero Galaxy", "Pinwheel Galaxy"],
+      "answer": "Andromeda Galaxy"
+    },
+    {
+      "q": "Which spacecraft was the first to land on the Moon?",
+      "options": ["Apollo 11", "Luna 2", "Apollo 13", "Viking 1"],
+      "answer": "Apollo 11"
+    },
+    {
+      "q": "Which telescope was launched to replace Hubble?",
+      "options": ["Kepler", "Spitzer", "James Webb Space Telescope", "Chandra"],
+      "answer": "James Webb Space Telescope"
+    },
+    {
+      "q": "What is the main gas in the Sun?",
+      "options": ["Oxygen", "Hydrogen", "Nitrogen", "Carbon"],
+      "answer": "Hydrogen"
+    },
+
+    {
+      "q": "What is the point of infinite density inside a black hole called?",
+      "options": ["Event Horizon", "Accretion Disk", "Singularity", "Photon Sphere"],
+      "answer": "Singularity"
+    },
+    {
+      "q": "Which spacecraft has traveled farthest from Earth?",
+      "options": ["Voyager 1", "New Horizons", "Pioneer 10", "Voyager 2"],
+      "answer": "Voyager 1"
+    },
+    {
+      "q": "Which force is responsible for the accelerated expansion of the universe?",
+      "options": ["Dark Matter", "Gravity", "Dark Energy", "Radiation Pressure"],
+      "answer": "Dark Energy"
+    },
+    {
+      "q": "Which planet has the largest volcano in the Solar System?",
+      "options": ["Mars", "Earth", "Venus", "Jupiter"],
+      "answer": "Mars"
+    },
+    {
+      "q": "What is the boundary around a black hole called?",
+      "options": ["Photon Ring", "Event Horizon", "Infinity Layer", "Black Shell"],
+      "answer": "Event Horizon"
+    },
+    {
+      "q": "What is the leftover radiation from the Big Bang called?",
+      "options": ["Gamma Waves", "Solar Radiation", "Cosmic Microwave Background", "Stellar Heat"],
+      "answer": "Cosmic Microwave Background"
+    },
+    {
+      "q": "What type of galaxy is the Milky Way?",
+      "options": ["Elliptical", "Irregular", "Spiral", "Ring"],
+      "answer": "Spiral"
+    },
+    {
+      "q": "Which element is produced in the core of massive stars before a supernova?",
+      "options": ["Iron", "Carbon", "Helium", "Lithium"],
+      "answer": "Iron"
+    },
+    {
+      "q": "What is the habitable region around a star called?",
+      "options": ["Life Zone", "Cool Belt", "Goldilocks Zone", "Oxygen Belt"],
+      "answer": "Goldilocks Zone"
+    },
+    {
+      "q": "What theory explains the origin of the universe?",
+      "options": ["Steady State Theory", "Big Bang Theory", "Quantum Loop Theory", "String Theory"],
+      "answer": "Big Bang Theory"
+    }
+  ]
+}
