@@ -1,0 +1,440 @@
+:root{
+  --bg:#05010a;
+  --card:#0f0b14;
+  --neon1:#7b5cff;
+  --neon2:#00e0ff;
+  --accent:#ff4dff;
+  --glass: rgba(255,255,255,0.03);
+  --text: #e6f2ff;
+}
+
+*{
+  box-sizing:border-box;
+}
+
+html,body{
+  height:100%;
+}
+
+body{
+  margin:0;
+
+  /* GLOBAL BACKGROUND  */
+  background:
+      linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+      url("assets/homebg.jpg") no-repeat center center fixed;
+
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+
+  color:var(--text);
+  font-family:Inter, system-ui, -apple-system, "Segoe UI", Roboto, Arial;
+  -webkit-font-smoothing:antialiased;
+  overflow-x:hidden;
+}
+
+/* Stars background */
+#stars{
+  position:fixed;
+  inset:0;
+  z-index:-2;
+  background-image:
+    radial-gradient(circle at 20% 20%, rgba(255,255,255,0.02) 1px, transparent 1px),
+    radial-gradient(circle at 70% 40%, rgba(255,255,255,0.018) 1px, transparent 1px),
+    radial-gradient(circle at 40% 80%, rgba(255,255,255,0.015) 1px, transparent 1px);
+  background-size: 120px 120px, 180px 180px, 220px 220px;
+  filter: blur(0.5px);
+}
+
+/* Header */
+.topbar{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  padding:18px 28px;
+  background: linear-gradient(180deg, rgba(255,255,255,0.02), transparent);
+  border-bottom:1px solid rgba(255,255,255,0.03);
+  position:sticky;
+  top:0;
+  z-index:10;
+  backdrop-filter: blur(6px);
+}
+
+.logo{
+  font-weight:700;
+  letter-spacing:1px;
+  color:var(--neon2);
+}
+
+.logo span{
+  color:var(--accent);
+}
+
+/* Nav */
+.nav{
+  display:flex;
+  gap:8px;
+}
+
+.nav-btn{
+  background:transparent;
+  border:0;
+  color:var(--text);
+  padding:8px 12px;
+  cursor:pointer;
+  border-radius:8px;
+  font-weight:600;
+  transition:all .18s;
+}
+
+.nav-btn:hover{
+  transform:translateY(-3px);
+  color:var(--neon1);
+}
+
+.nav-btn.active{
+  box-shadow: 0 0 18px rgba(123,92,255,0.18),
+              inset 0 0 18px rgba(0,224,255,0.03);
+  background: linear-gradient(90deg,
+            rgba(123,92,255,0.06),
+            rgba(0,224,255,0.02));
+}
+
+/* Pages */
+main{
+  padding:30px;
+  max-width:1100px;
+  margin:0 auto;
+}
+
+.page{
+  display:none;
+}
+
+.page.visible{
+  display:block;
+  animation:fadeIn .6s ease;
+}
+
+/* FLOATING PLANET ON HOME */
+
+.floating-planet{
+  position:absolute;
+  top:130px;
+  right:-120px;
+  width:380px;
+  height:380px;
+  background-image: url("./assets/earth.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius:50%;
+  opacity:0.35;
+  filter: drop-shadow(0 0 25px rgba(0,224,255,0.5));
+  animation: floatPlanet 12s infinite ease-in-out,
+             rotatePlanet 25s infinite linear;
+  z-index:-1;
+}
+
+/* Floating animation */
+@keyframes floatPlanet{
+  0%{ transform:translateY(0px) scale(1); }
+  50%{ transform:translateY(-25px) scale(1.03); }
+  100%{ transform:translateY(0px) scale(1); }
+}
+
+/* Rotation animation */
+@keyframes rotatePlanet{
+  from{ transform:rotate(0deg); }
+  to{ transform:rotate(360deg); }
+}
+
+/* HOME HERO */
+
+.hero{
+  background: linear-gradient(180deg,
+              rgba(255,255,255,0.06),
+              rgba(123,92,255,0.05),
+              transparent);
+  border-radius:20px;
+  padding:40px;
+  margin-bottom:30px;
+  box-shadow: 0 10px 45px rgba(0,0,0,0.8);
+  border: 1px solid rgba(255,255,255,0.08);
+  backdrop-filter: blur(10px);
+}
+
+.hero h1{
+  margin:0;
+  font-size:42px;
+  letter-spacing:1.5px;
+  background: linear-gradient(90deg,var(--neon1),var(--neon2));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0 0 14px rgba(123,92,255,0.5),
+               0 0 20px rgba(0,224,255,0.25);
+}
+
+.hero p{
+  font-size:18px;
+  margin-top:12px;
+  color:#cbd9f3;
+}
+
+/* Buttons */
+.cta-row{
+  margin-top:25px;
+  display:flex;
+  gap:16px;
+}
+
+.btn{
+  padding:10px 14px;
+  border-radius:10px;
+  border:0;
+  font-weight:700;
+  cursor:pointer;
+}
+
+.btn.glow{
+  background: linear-gradient(90deg,
+              rgba(123,92,255,0.35),
+              rgba(0,224,255,0.25));
+  box-shadow: 0 8px 35px rgba(0,224,255,0.35),
+              0 0 12px rgba(123,92,255,0.45);
+  color:#fff;
+  transition:0.3s ease;
+}
+
+.btn.glow:hover{
+  transform:scale(1.06);
+  box-shadow: 0 12px 50px rgba(0,224,255,0.55);
+}
+
+.btn.ghost{
+  background:transparent;
+  color:var(--text);
+  border:1px solid rgba(255,255,255,0.04);
+}
+
+.btn.ghost:hover{
+  color:var(--neon2);
+  border-color:var(--neon2);
+  box-shadow:0 0 12px rgba(0,224,255,0.4);
+}
+
+/* Featured Cards */
+
+.features{
+  display:grid;
+  grid-template-columns: repeat(auto-fit,minmax(260px,1fr));
+  gap:22px;
+  margin-top:25px;
+}
+
+.card{
+  background: linear-gradient(180deg,
+              rgba(255,255,255,0.03),
+              rgba(0,0,0,0.35));
+  padding:20px;
+  border-radius:16px;
+  border:1px solid rgba(255,255,255,0.08);
+  box-shadow: 0 6px 25px rgba(0,0,0,0.6),
+              0 0 18px rgba(123,92,255,0.15);
+  backdrop-filter: blur(6px);
+  transition:transform .25s ease,
+             box-shadow .25s ease,
+             border .25s ease;
+}
+
+.card:hover{
+  transform:translateY(-10px) scale(1.03);
+  border-color:var(--neon1);
+  box-shadow:
+    0 12px 40px rgba(0,0,0,0.85),
+    0 0 25px rgba(123,92,255,0.55),
+    0 0 15px rgba(0,224,255,0.30);
+}
+
+.card h3{
+  color:#ffffff;
+  text-shadow:0 0 10px rgba(123,92,255,0.5);
+}
+
+.card p{
+  color:#b8c4d9;
+  line-height:1.5;
+}
+
+/* Panels */
+.panel{
+  background: linear-gradient(180deg, rgba(255,255,255,0.02), transparent);
+  padding:18px;
+  border-radius:12px;
+  border:1px solid rgba(255,255,255,0.03);
+}
+
+/* Article list */
+.list article{
+  margin-bottom:12px;
+  padding:12px;
+  border-radius:10px;
+  background:var(--glass);
+  border:1px solid rgba(255,255,255,0.02);
+}
+
+/* Gallery */
+.grid{
+  display:grid;
+  grid-template-columns: repeat(auto-fill,minmax(160px,1fr));
+  gap:10px;
+  margin-top:12px;
+}
+
+.grid img{
+  width:100%;
+  height:120px;
+  object-fit:cover;
+  border-radius:10px;
+  border:1px solid rgba(255,255,255,0.03);
+}
+
+/* APOD */
+.apod-panel{
+  display:flex;
+  flex-direction:column;
+  gap:12px;
+}
+
+.apod-content{
+  display:flex;
+  gap:12px;
+  align-items:flex-start;
+}
+
+.apod-content img{
+  width:320px;
+  border-radius:12px;
+  border:1px solid rgba(255,255,255,0.04);
+}
+
+/* Events */
+.events-list{
+  list-style:none;
+  padding:0;
+  margin:0;
+}
+
+.events-list li{
+  padding:12px;
+  margin-bottom:10px;
+  background:linear-gradient(90deg,
+             rgba(123,92,255,0.04),
+             transparent);
+  border-radius:8px;
+}
+
+/* Quiz */
+#quiz-question{
+  font-weight:700;
+  margin-bottom:12px;
+}
+
+#quiz-options{
+  display:flex;
+  flex-direction:column;
+  gap:8px;
+}
+
+.option{
+  padding:10px;
+  border-radius:8px;
+  cursor:pointer;
+  border:1px solid rgba(255,255,255,0.03);
+}
+
+.option:hover{
+  transform:translateX(6px);
+}
+
+.quiz-controls{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  margin-top:12px;
+}
+
+/* 3D Explorer */
+#three-container{
+  width:100%;
+  height:500px;
+  border-radius:12px;
+  overflow:hidden;
+  border:1px solid rgba(255,255,255,0.03);
+  margin-top:12px;
+}
+
+/* Footer */
+footer{
+  padding:18px;
+  text-align:center;
+  color:#8f9fb4;
+  font-size:13px;
+}
+
+/* Animation */
+@keyframes fadeIn{
+  from{opacity:0; transform:translateY(8px)}
+  to{opacity:1; transform:none}
+}
+
+.hint{
+  color:#9fb2d0;
+  font-size:13px;
+  margin-top:8px;
+}
+
+/* Responsive */
+@media (max-width:760px){
+
+  .apod-content{
+    flex-direction:column;
+    align-items:center;
+  }
+
+  .floating-planet{
+    width:240px;
+    height:240px;
+    top:160px;
+    right:-60px;
+    opacity:0.25;
+  }
+
+  .nav{
+    overflow:auto;
+  }
+}
+
+/* HOME PAGE BACKGROUND IMAGE */
+#home{
+  position: relative;
+  background-image: url("./assets/homebg.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  /* Blend with neon theme */
+  background-blend-mode: overlay;
+  background-color: rgba(0,0,0,0.35);
+
+  border-radius: 20px;
+  padding: 10px;
+}
+
+/* REMOVE BACKGROUND IMAGE IN 3D EXPLORER SECTION */
+#explorer{
+  background: #05010a !important;   
+  background-image: none !important;
+}
+
